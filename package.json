@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  },
+  "scripts": {
+    "build": "babel src -d build"
+  }
+}

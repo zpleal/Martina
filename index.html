@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Martina</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Writting games with either tracing and tapping">
+    <script src="build/GamePanel.js" ></script>
+    <script src="build/main.js"></script>
+    <script src="build/screenfull.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+      <link rel="manifest" href="site.webmanifest">
+  <body>
+
+    <div id="openConfigs">&vellip;</div>
+
+    <div id="configsDialog">
+
+      <fieldset> <legend>Panel</legend>
+	<div id="panel" >
+	            <!--filled with options from panels folder -->
+	</div>
+	<!--
+        <select id="panel" size="10">
+        </select>
+	-->
+      </fieldset>
+
+      <fieldset> <legend>Mode</legend>
+        <div>
+          <input id="trace" checked type="radio" name="mode" value="trace">
+          <label for="trace">Trace</label> 
+        </div>
+        <div>
+          <input id="tap"   type="radio" name="mode" value="tap">
+          <label for="tap">Tap</label>
+        </div>   
+      </fieldset>
+
+      <fieldset> <legend>Marks</legend>
+        <input id="size"  type="range" min="1" max="100" value="50">
+        <input id="color" type="color" value="#16264c">
+      </fieldset>
+
+      <fieldset> <legend>Fullscreen</legend>
+        <div> 
+          <input id="fullscreen-yes" checked type="radio" name="fullscreen" value="yes">
+          <label for="fullscreen-yes">Yes</label> 
+        </div>
+        <div>
+          <input id="fullscreen-no" type="radio" name="fullscreen" value="no">
+          <label for="fullscreen-no">No</label>   
+        </div>
+      </fieldset>
+
+     
+
+      <div id="cancel"  class="button"> Cancel  </div>
+      <div id="ok"      class="button"> Ok      </div>
+    </div>
+
+
+  </body>
+</head>

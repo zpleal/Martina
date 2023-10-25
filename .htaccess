@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+
+<Files panels.js>
+SetHandler cgi-script
+</Files>
+
+<Files hello>
+SetHandler cgi-script
+</Files>
